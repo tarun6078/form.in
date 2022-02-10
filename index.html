@@ -113,7 +113,7 @@
                     <input
                       type="submit"
                       name="submit"
-                      onclick="gotoemail()"
+                      onclick="gotowhatsapp()"
                       class="btnSubmit btn-block"
                       value="Submit"
                     />
@@ -132,7 +132,7 @@
 </html>
 <span
 class="float"
-onclick="gotoemail()"
+onclick="gotowhatsapp()"
 style="
   position: fixed;
   width: 50px;
@@ -155,14 +155,14 @@ style="
 </span>
 
 <script>
-function gotoemail() {
+function gotowhatsapp() {
     
     var name = document.getElementById("name").value;
     var phone = document.getElementById("phone").value;
     var email = document.getElementById("email").value;
     var service = document.getElementById("service").value;
 
-    var url = "mailto:tarunlalkumar@gmail.com" 
+    var url = "http://wa.me/919368045239?text"
     + "Name: " + name + "%0a"
     + "Phone: " + phone + "%0a"
     + "Email: " + email  + "%0a"
